@@ -133,7 +133,7 @@ const G = {
   te = e(
     "div",
     { class: "font-bold m-3 ml-5 text-xl" },
-    "Select a project to Komput",
+    "Select a project to VRAM",
     -1
   ),
   se = { class: "m-5" },

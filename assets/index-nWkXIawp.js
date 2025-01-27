@@ -91096,9 +91096,9 @@ const Ur = wQ({
   zRe = {
     name: "VRAM",
     description:
-      "Komputai is an early adopter of the DEPIN initiative, driving the AI decentralization.",
-    url: "https://dapp.komput.ai/",
-    icons: ["https://dapp.komput.ai/favicon.ico"],
+      "VRAM AI is an early adopter of the DEPIN initiative, driving the AI decentralization.",
+    url: "https://app.vramai.xyz/",
+    icons: ["/favicon.ico"],
   },
   R4 = HRe,
   yc = BRe({
