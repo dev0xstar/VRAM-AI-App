@@ -6736,7 +6736,7 @@ const T5 = "https://secure.web3modal.com",
     ONE_SEC_MS: 1e3,
     SECURE_SITE: T5,
     SECURE_SITE_DASHBOARD: `${T5}/dashboard`,
-    SECURE_SITE_FAVICON: `${T5}/images/favicon.png`,
+    SECURE_SITE_FAVICON: `${T5}/images/favicon.ico`,
     RESTRICTED_TIMEZONES: [
       "ASIA/SHANGHAI",
       "ASIA/URUMQI",
@@ -91098,7 +91098,7 @@ const Ur = wQ({
     description:
       "Komputai is an early adopter of the DEPIN initiative, driving the AI decentralization.",
     url: "https://dapp.komput.ai/",
-    icons: ["https://dapp.komput.ai/favicon.png"],
+    icons: ["https://dapp.komput.ai/favicon.ico"],
   },
   R4 = HRe,
   yc = BRe({
