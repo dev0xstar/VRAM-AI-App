@@ -210,7 +210,7 @@ const rt = z(K, [["render", lt]]),
   mt = t(
     "a",
     {
-      href: "https://komputai.gitbook.io/komputai/marketplace-decentralizing-computing-power",
+      href: "https://docs.vramai.xyz/",
       target: "_blank",
       class:
         "rounded-xl bg-gray-500 bg-opacity-30 px-3 py-2 border border-lime-400 text-lime-50 mr-3 font-bold cursor-pointer mt-3",
