@@ -247,8 +247,8 @@ const rt = z(K, [["render", lt]]),
     "div",
     { class: "text-4xl text-lime-50 mt-16 font-bold" },
     [
-      t("span", { class: "text-lime-400" }, "V"),
-      p("RAM "),
+      t("span", { class: "text-lime-400" }, "VRAM"),
+      p(" "),
       t("span", { class: "text-lime-400" }, "Network"),
     ],
     -1
