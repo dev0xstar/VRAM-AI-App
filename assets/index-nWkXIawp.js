@@ -6133,8 +6133,8 @@ const bQ = { id: "app", class: "flex relative min-h-screen" },
     },
     [
       ut("div", { class: "text-sm" }, [
-        cc("© 2024 "),
-        ut("b", null, "KOMPUTAI"),
+        cc("© 2025 "),
+        ut("b", null, "VRAMAI"),
         cc(". All rights reserved."),
       ]),
     ],

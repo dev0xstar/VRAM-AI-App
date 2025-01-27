@@ -11419,10 +11419,10 @@ function rd(i, t, e, s, n, o) {
         P("div", xh, [
           P("div", _h, [
             yh,
-            P("div", vh, co(s.request.toLocaleString()), 1),
+            P("div", vh, co(0), 1),
             P("div", wh, [
               P("div", Mh, [(ht(), ct("svg", kh, Ph)), xt(" Week ")]),
-              (ht(), ct("div", Ch, [(ht(), ct("svg", Dh, Oh)), xt(" 17% ")])),
+              (ht(), ct("div", Ch, [(ht(), ct("svg", Dh, Oh)), xt(" 0% ")])),
             ]),
           ]),
         ]),
