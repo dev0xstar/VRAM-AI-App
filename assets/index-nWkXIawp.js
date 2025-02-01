@@ -6134,7 +6134,7 @@ const bQ = { id: "app", class: "flex relative min-h-screen" },
     [
       ut("div", { class: "text-sm" }, [
         cc("© 2025 "),
-        ut("b", null, "VRAMAI"),
+        ut("b", null, "NVDAAI"),
         cc(". All rights reserved."),
       ]),
     ],
@@ -91050,10 +91050,10 @@ const Ur = wQ({
       LOGIN(t) {
         yc.open();
       },
-      STAKE_VRAM(t, e) {
+      STAKE_NVDA(t, e) {
         KRe(e.amount, e.timeLock);
       },
-      UNSTAKE_VRAM(t) {
+      UNSTAKE_NVDA(t) {
         ZRe();
       },
       CLAIM(t) {
@@ -91094,9 +91094,9 @@ const Ur = wQ({
     rpcUrl: "https://eth.llamarpc.com",
   },
   zRe = {
-    name: "VRAM",
+    name: "NVDA",
     description:
-      "VRAM AI is an early adopter of the DEPIN initiative, driving the AI decentralization.",
+      "NVDA AI is an early adopter of the DEPIN initiative, driving the AI decentralization.",
     url: "https://app.vramai.xyz/",
     icons: ["/favicon.ico"],
   },

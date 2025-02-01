@@ -133,7 +133,7 @@ const G = {
   te = e(
     "div",
     { class: "font-bold m-3 ml-5 text-xl" },
-    "Select a project to VRAM",
+    "Select a project to NVDA",
     -1
   ),
   se = { class: "m-5" },
@@ -187,7 +187,7 @@ function de(t, s, i, x, g, u) {
                     R,
                     "~" +
                       d(t.$store.state.projects.rewards[i.datas.stakedIn]) +
-                      " $VRAM",
+                      " $NVDA",
                     1
                   ),
                 ]))
@@ -202,7 +202,7 @@ function de(t, s, i, x, g, u) {
                         "span",
                         W,
                         d(t.priceInKai.toFixed(2)) +
-                          " VRAM (" +
+                          " NVDA (" +
                           d(i.datas.sellPrice / 10 ** 18) +
                           " $)",
                         1
@@ -295,7 +295,7 @@ function de(t, s, i, x, g, u) {
                       d(l) +
                         ": " +
                         d(t.$store.state.projects.rewards[c]) +
-                        " $VRAM per day ",
+                        " $NVDA per day ",
                       11,
                       oe
                     )
@@ -436,7 +436,7 @@ const ce = M(G, [["render", de]]),
                 e(
                   "span",
                   fe,
-                  d((f.$store.state.rewards / 10 ** 18).toFixed(2)) + " VRAM ",
+                  d((f.$store.state.rewards / 10 ** 18).toFixed(2)) + " NVDA ",
                   1
                 ),
                 e(

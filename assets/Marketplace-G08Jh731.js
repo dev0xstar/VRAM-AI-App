@@ -113,7 +113,7 @@ const K = {
   et = t(
     "div",
     null,
-    [p("Daily Earn "), t("span", { class: "text-lime-400" }, "~13 $VRAM")],
+    [p("Daily Earn "), t("span", { class: "text-lime-400" }, "~13 $NVDA")],
     -1
   ),
   ot = {
@@ -168,7 +168,7 @@ function lt(m, a, d, w, k, f) {
                         "span",
                         J,
                         y(m.priceInKai.toFixed(2)) +
-                          " VRAM (" +
+                          " NVDA (" +
                           y(d.datas.sellPrice / 10 ** 18) +
                           " $)",
                         1
@@ -202,7 +202,7 @@ function lt(m, a, d, w, k, f) {
 const rt = z(K, [["render", lt]]),
   at = { class: "p-7 w-full" },
   nt = B(
-    '<div class="text-4xl text-lime-50 font-bold mt-20"> Discover the <b class="text-lime-400">VRAM</b> <b class="text-lime-400">Power</b></div><div class="text-4xl text-lime-50 mt-16"> Join the Computation<br> Revolution: <span class="text-lime-400"> Where Your<br> GPU&#39;s Power Meets Purpose</span></div>',
+    '<div class="text-4xl text-lime-50 font-bold mt-20"> Discover the <b class="text-lime-400">NVDA</b> <b class="text-lime-400">Power</b></div><div class="text-4xl text-lime-50 mt-16"> Join the Computation<br> Revolution: <span class="text-lime-400"> Where Your<br> GPU&#39;s Power Meets Purpose</span></div>',
     2
   ),
   dt = { class: "mt-20" },
@@ -247,7 +247,7 @@ const rt = z(K, [["render", lt]]),
     "div",
     { class: "text-4xl text-lime-50 mt-16 font-bold" },
     [
-      t("span", { class: "text-lime-400" }, "VRAM"),
+      t("span", { class: "text-lime-400" }, "NVDA"),
       p(" "),
       t("span", { class: "text-lime-400" }, "Network"),
     ],

@@ -32,7 +32,7 @@ const y =
   U = e(
     "div",
     { class: "text-center text-lime-50 w-full mb-5" },
-    " Staking a minimum of 500 VRAM will grant access to future token launches on our launchpad (AIPAD). ",
+    " Staking a minimum of 500 NVDA will grant access to future token launches on our launchpad (AIPAD). ",
     -1
   ),
   O = { class: "text-white rounded-xl w-full" },
@@ -67,7 +67,7 @@ const y =
   mt = { key: 2 },
   gt = { key: 1, class: "text-red-500 text-sm" },
   xt = H(
-    '<div class="text-teal-200"> AIPAD membership offers three tiers, each providing priority access to its launches and increasing GPU discounts commensurate with your tier. </div><div class="flex justify-between flex-wrap mt-3"><div class="text-orange-400">Level 1 &gt; 500 VRAM</div><div class="text-gray-400">Level 2 &gt; 2000 VRAM</div><div class="text-yellow-400">Level 3 &gt; 10000 VRAM</div></div>',
+    '<div class="text-teal-200"> AIPAD membership offers three tiers, each providing priority access to its launches and increasing GPU discounts commensurate with your tier. </div><div class="flex justify-between flex-wrap mt-3"><div class="text-orange-400">Level 1 &gt; 500 NVDA</div><div class="text-gray-400">Level 2 &gt; 2000 NVDA</div><div class="text-yellow-400">Level 3 &gt; 10000 NVDA</div></div>',
     2
   ),
   vt = [xt],
@@ -79,7 +79,7 @@ const y =
       class:
         "absolute text-black m-2 mt-2 border-l-2 px-2 border-gray-800 text-gray-800",
     },
-    " VRAM ",
+    " NVDA ",
     -1
   ),
   ft = e("div", { class: "border-b my-7" }, null, -1),
@@ -154,7 +154,7 @@ const y =
                             onClick:
                               s[0] ||
                               (s[0] = (a) => {
-                                t(o).commit("UNSTAKE_VRAM"),
+                                t(o).commit("UNSTAKE_NVDA"),
                                   r(c) ? (c.value = !1) : (c = !1);
                               }),
                             class:
@@ -187,7 +187,7 @@ const y =
                         ? (i(),
                           n("div", Z, [
                             P,
-                            e("div", L, x(t(o).state.tvl) + " VRAM", 1),
+                            e("div", L, x(t(o).state.tvl) + " NVDA", 1),
                           ]))
                         : g("", !0),
                       e("div", J, [
@@ -218,7 +218,7 @@ const y =
                           e("div", null, [
                             h(x(t(o).state.staking.amount || 0) + " ", 1),
                             at,
-                            h(" VRAM "),
+                            h(" NVDA "),
                           ]),
                         ]),
                         e(
@@ -241,7 +241,7 @@ const y =
                                     ? (i(), n("div", ut, "level 2"))
                                     : (i(), n("div", mt, "level 1")),
                                 ]))
-                              : (i(), n("div", gt, "Stake 500 VRAM min")),
+                              : (i(), n("div", gt, "Stake 500 NVDA min")),
                           ]
                         ),
                         t(m)
@@ -382,14 +382,14 @@ const y =
                               onClick:
                                 s[9] ||
                                 (s[9] = (a) => (
-                                  t(o).commit("STAKE_VRAM", {
+                                  t(o).commit("STAKE_NVDA", {
                                     amount: t(d),
                                     timeLock: t(l),
                                   }),
                                   r(d) ? (d.value = void 0) : (d = void 0)
                                 )),
                             },
-                            " STAKE VRAM "
+                            " STAKE NVDA "
                           ),
                         ]),
                         ft,
@@ -398,7 +398,7 @@ const y =
                           e("div", null, [
                             h(x(t(o).state.staking.rewardsEarned) + " ", 1),
                             wt,
-                            h(" VRAM "),
+                            h(" NVDA "),
                           ]),
                         ]),
                         e("div", yt, [
@@ -434,7 +434,7 @@ const y =
                               (s[12] = (a) =>
                                 r(c) ? (c.value = !0) : (c = !0)),
                           },
-                          " UNSTAKE VRAM "
+                          " UNSTAKE NVDA "
                         ),
                       ]),
                     ]),

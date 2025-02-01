@@ -7,7 +7,7 @@ const i = { class: "pt-36 text-white w-full", style: { "min-height": "90vh" } },
   h = e(
     "div",
     { class: "text-3xl font-bold text-lime-400" },
-    " Contribute to VRAM's Network ",
+    " Contribute to NVDA's Network ",
     -1
   ),
   p = e(
@@ -15,7 +15,7 @@ const i = { class: "pt-36 text-white w-full", style: { "min-height": "90vh" } },
     { class: "my-7 text-lime-50" },
     [
       t(
-        " Thank you for your interest in contributing to the VRAM network, where "
+        " Thank you for your interest in contributing to the NVDA network, where "
       ),
       e("b", null, "decentralized GPU sharing"),
       t(" is key to improve accessibility to "),
@@ -25,7 +25,7 @@ const i = { class: "pt-36 text-white w-full", style: { "min-height": "90vh" } },
       t(
         " section is currently under development and will soon allow you to leverage your GPU power to earn "
       ),
-      e("b", null, "$VRAM"),
+      e("b", null, "$NVDA"),
       t(". "),
     ],
     -1
